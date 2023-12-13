@@ -27,13 +27,12 @@ public class Method {
         Activity19 s = new Activity19();
 
         Scanner scanInt = new Scanner(System.in);
-        Scanner scanFloat = new Scanner(System.in);
         int n = -1;
 
         do {
             System.out.println();
-            System.out.println("Enter a number of Activities you want to Generate");
-            System.out.println("0 For Exiting the program ");
+            System.out.println("Enter a number of Activities you want to Open");
+            System.out.println("0 to Exit the program ");
 
             for( int i = 0; i < 19; i++) {
                 System.out.println((i + 1) + " For Activtity " + (i +1));

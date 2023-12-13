@@ -8,6 +8,6 @@ public class Activity18 {
         for(int number : numbers) {
             sum += number;
         }
-        System.out.println("Sum of the numbers in Array " + sum);
+        System.out.println("Sum of the numbers in Array  : " + sum);
     }
 }
